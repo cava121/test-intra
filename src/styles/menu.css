@@ -1,0 +1,39 @@
+.menu {
+  background: #002137;
+  padding: 10px;
+}
+
+.menu__logo span {
+  width: 100%;
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.menu__item {
+  text-align: center;
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
+
+.menu__item span {
+  font-size: 25px;
+  color: #fff;
+}
+
+.menu__item p {
+  font-size: 12px;
+  color: #fff;
+  margin-top: 5px;
+}
+
+.menu__item a {
+  text-decoration: none;
+  width: 100%;
+  display: block;
+}
+
+.menu__item a:hover {
+  opacity: 0.5;
+}

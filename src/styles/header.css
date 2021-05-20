@@ -1,0 +1,73 @@
+header {
+  height: 60px;
+  background: #d1e0ed;
+}
+
+.header__blocks {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  height: 60px;
+}
+
+.header__user span:first-child {
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.header__search {
+  position: relative;
+}
+
+.header__search input {
+  width: 650px;
+  padding: 10px 14px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  color: #ccd5e1;
+  font-size: 15px;
+}
+
+.header__search svg {
+  position: absolute;
+  right: 10px;
+  color: #bebfc8;
+  font-size: 20px;
+  top: calc(50% - 10px);
+}
+
+.header__search input:focus {
+  box-shadow: 0 0 7px #008cf0;
+}
+
+.ant-input-affix-wrapper-focused svg {
+  display: none;
+}
+
+.header__search input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.ant-avatar-icon {
+  background: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  display: block;
+  position: relative;
+}
+
+.header__user {
+  display: flex;
+  align-items: center;
+}
+
+.anticon-user {
+  position: absolute;
+  font-size: 20px;
+  left: calc(50% - 10px);
+  top: calc(50% - 10px);
+}
